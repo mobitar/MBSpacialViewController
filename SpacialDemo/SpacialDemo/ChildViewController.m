@@ -15,7 +15,6 @@
 @implementation ChildViewController
 
 -(UIColor*)randomColor {
-//    return [UIColor colorWithHue:((arc4random() % 255) / 255.0) saturation:1.0 brightness:((arc4random() % 255) / 255.0)  alpha:1.0];
     return [UIColor colorWithRed:(float)(arc4random() % 255)/255.0 green:(float)(arc4random() % 255)/255.0 blue:(float)(arc4random() % 255)/255.0 alpha:1.0];
 }
 
@@ -47,7 +46,6 @@
     CGRect frame = CGRectMake(bar.bounds.size.width/2.0 - barWidth/2.0, 0, barWidth, 50);
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:frame];
 
-//    titleLabel.frame = frame;
     titleLabel.text = self.title;
     titleLabel.font = [UIFont boldSystemFontOfSize:18];
     titleLabel.textColor = [UIColor whiteColor];
