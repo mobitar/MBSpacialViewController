@@ -49,4 +49,4 @@ MBSpacialViewController doesn't use UIKit view callbacks such as viewDidAppear o
 Any view controller that is part of the view heirarchy must inherit from ```MBSpacialChildViewController```.
 
 ## License
-MBAlertView is available under the MIT license.
+MBSpacialViewController is available under the MIT license.
