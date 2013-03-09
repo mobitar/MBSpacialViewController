@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0420BAB316D1BED400FD1ECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420BAB216D1BED400FD1ECA /* UIKit.framework */; };
+		0420BAB516D1BED400FD1ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420BAB416D1BED400FD1ECA /* Foundation.framework */; };
+		0420BAB716D1BED400FD1ECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420BAB616D1BED400FD1ECA /* CoreGraphics.framework */; };
+		0420BABD16D1BED400FD1ECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0420BABB16D1BED400FD1ECA /* InfoPlist.strings */; };
+		0420BABF16D1BED400FD1ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420BABE16D1BED400FD1ECA /* main.m */; };
+		0420BAC316D1BED400FD1ECA /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420BAC216D1BED400FD1ECA /* MBAppDelegate.m */; };
+		0420BAC516D1BED400FD1ECA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420BAC416D1BED400FD1ECA /* Default.png */; };
+		0420BAC716D1BED400FD1ECA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420BAC616D1BED400FD1ECA /* Default@2x.png */; };
+		0420BAC916D1BED400FD1ECA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420BAC816D1BED400FD1ECA /* Default-568h@2x.png */; };
+		0420BAE016D1BF3700FD1ECA /* MBSpacialChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420BAD816D1BF3700FD1ECA /* MBSpacialChildViewController.m */; };
+		0420BAE216D1BF3700FD1ECA /* MBSpacialMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420BADC16D1BF3700FD1ECA /* MBSpacialMasterViewController.m */; };
+		0420BAE616D1BF7900FD1ECA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420BAE416D1BF7900FD1ECA /* MasterViewController.m */; };
+		0420BAEB16D1BFB000FD1ECA /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420BAE916D1BFB000FD1ECA /* ChildViewController.m */; };
+		0420BAF116D1C35200FD1ECA /* UIViewController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420BAF016D1C35200FD1ECA /* UIViewController+Utilities.m */; };
+		04AFC6ED16DA640C00201FC3 /* MBMapNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC6E716DA640C00201FC3 /* MBMapNode.m */; };
+		04AFC6EE16DA640C00201FC3 /* MBMapNodeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC6E916DA640C00201FC3 /* MBMapNodeLine.m */; };
+		04AFC6EF16DA640C00201FC3 /* MBSpacialMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC6EC16DA640C00201FC3 /* MBSpacialMap.m */; };
+		04AFC6F316DA64BA00201FC3 /* MBPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC6F216DA64BA00201FC3 /* MBPanGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0420BAAF16D1BED400FD1ECA /* SpacialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0420BAB216D1BED400FD1ECA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0420BAB416D1BED400FD1ECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0420BAB616D1BED400FD1ECA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0420BABA16D1BED400FD1ECA /* SpacialDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpacialDemo-Info.plist"; sourceTree = "<group>"; };
+		0420BABC16D1BED400FD1ECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0420BABE16D1BED400FD1ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0420BAC016D1BED400FD1ECA /* SpacialDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpacialDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0420BAC116D1BED400FD1ECA /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		0420BAC216D1BED400FD1ECA /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		0420BAC416D1BED400FD1ECA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0420BAC616D1BED400FD1ECA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0420BAC816D1BED400FD1ECA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0420BAD716D1BF3700FD1ECA /* MBSpacialChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSpacialChildViewController.h; sourceTree = "<group>"; };
+		0420BAD816D1BF3700FD1ECA /* MBSpacialChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSpacialChildViewController.m; sourceTree = "<group>"; };
+		0420BADB16D1BF3700FD1ECA /* MBSpacialMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSpacialMasterViewController.h; sourceTree = "<group>"; };
+		0420BADC16D1BF3700FD1ECA /* MBSpacialMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSpacialMasterViewController.m; sourceTree = "<group>"; };
+		0420BAE316D1BF7900FD1ECA /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0420BAE416D1BF7900FD1ECA /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0420BAE816D1BFB000FD1ECA /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		0420BAE916D1BFB000FD1ECA /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		0420BAEF16D1C35200FD1ECA /* UIViewController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utilities.h"; sourceTree = "<group>"; };
+		0420BAF016D1C35200FD1ECA /* UIViewController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utilities.m"; sourceTree = "<group>"; };
+		04AFC6E616DA640C00201FC3 /* MBMapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMapNode.h; sourceTree = "<group>"; };
+		04AFC6E716DA640C00201FC3 /* MBMapNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMapNode.m; sourceTree = "<group>"; };
+		04AFC6E816DA640C00201FC3 /* MBMapNodeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMapNodeLine.h; sourceTree = "<group>"; };
+		04AFC6E916DA640C00201FC3 /* MBMapNodeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMapNodeLine.m; sourceTree = "<group>"; };
+		04AFC6EA16DA640C00201FC3 /* MBMapUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMapUI.h; sourceTree = "<group>"; };
+		04AFC6EB16DA640C00201FC3 /* MBSpacialMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSpacialMap.h; sourceTree = "<group>"; };
+		04AFC6EC16DA640C00201FC3 /* MBSpacialMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSpacialMap.m; sourceTree = "<group>"; };
+		04AFC6F116DA64BA00201FC3 /* MBPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPanGestureRecognizer.h; sourceTree = "<group>"; };
+		04AFC6F216DA64BA00201FC3 /* MBPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPanGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0420BAAC16D1BED400FD1ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0420BAB316D1BED400FD1ECA /* UIKit.framework in Frameworks */,
+				0420BAB516D1BED400FD1ECA /* Foundation.framework in Frameworks */,
+				0420BAB716D1BED400FD1ECA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0420BAA616D1BED400FD1ECA = {
+			isa = PBXGroup;
+			children = (
+				0420BAB816D1BED400FD1ECA /* SpacialDemo */,
+				0420BAB116D1BED400FD1ECA /* Frameworks */,
+				0420BAB016D1BED400FD1ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0420BAB016D1BED400FD1ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0420BAAF16D1BED400FD1ECA /* SpacialDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0420BAB116D1BED400FD1ECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0420BAB216D1BED400FD1ECA /* UIKit.framework */,
+				0420BAB416D1BED400FD1ECA /* Foundation.framework */,
+				0420BAB616D1BED400FD1ECA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0420BAB816D1BED400FD1ECA /* SpacialDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0420BAC116D1BED400FD1ECA /* MBAppDelegate.h */,
+				0420BAC216D1BED400FD1ECA /* MBAppDelegate.m */,
+				04AFC6F416DA796E00201FC3 /* Demo */,
+				0420BACF16D1BF3700FD1ECA /* MBSpacialViewController */,
+				0420BAB916D1BED400FD1ECA /* Supporting Files */,
+			);
+			path = SpacialDemo;
+			sourceTree = "<group>";
+		};
+		0420BAB916D1BED400FD1ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0420BABA16D1BED400FD1ECA /* SpacialDemo-Info.plist */,
+				0420BAEF16D1C35200FD1ECA /* UIViewController+Utilities.h */,
+				0420BAF016D1C35200FD1ECA /* UIViewController+Utilities.m */,
+				0420BABB16D1BED400FD1ECA /* InfoPlist.strings */,
+				0420BABE16D1BED400FD1ECA /* main.m */,
+				0420BAC016D1BED400FD1ECA /* SpacialDemo-Prefix.pch */,
+				0420BAC416D1BED400FD1ECA /* Default.png */,
+				0420BAC616D1BED400FD1ECA /* Default@2x.png */,
+				0420BAC816D1BED400FD1ECA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0420BACF16D1BF3700FD1ECA /* MBSpacialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04AFC6E516DA640C00201FC3 /* Map */,
+				04AFC6F016DA64BA00201FC3 /* Gestures */,
+				0420BAD716D1BF3700FD1ECA /* MBSpacialChildViewController.h */,
+				0420BAD816D1BF3700FD1ECA /* MBSpacialChildViewController.m */,
+				0420BADB16D1BF3700FD1ECA /* MBSpacialMasterViewController.h */,
+				0420BADC16D1BF3700FD1ECA /* MBSpacialMasterViewController.m */,
+			);
+			name = MBSpacialViewController;
+			path = ../../MBSpacialViewController;
+			sourceTree = "<group>";
+		};
+		04AFC6E516DA640C00201FC3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				04AFC6E616DA640C00201FC3 /* MBMapNode.h */,
+				04AFC6E716DA640C00201FC3 /* MBMapNode.m */,
+				04AFC6E816DA640C00201FC3 /* MBMapNodeLine.h */,
+				04AFC6E916DA640C00201FC3 /* MBMapNodeLine.m */,
+				04AFC6EA16DA640C00201FC3 /* MBMapUI.h */,
+				04AFC6EB16DA640C00201FC3 /* MBSpacialMap.h */,
+				04AFC6EC16DA640C00201FC3 /* MBSpacialMap.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		04AFC6F016DA64BA00201FC3 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				04AFC6F116DA64BA00201FC3 /* MBPanGestureRecognizer.h */,
+				04AFC6F216DA64BA00201FC3 /* MBPanGestureRecognizer.m */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		04AFC6F416DA796E00201FC3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0420BAE316D1BF7900FD1ECA /* MasterViewController.h */,
+				0420BAE416D1BF7900FD1ECA /* MasterViewController.m */,
+				0420BAE816D1BFB000FD1ECA /* ChildViewController.h */,
+				0420BAE916D1BFB000FD1ECA /* ChildViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0420BAAE16D1BED400FD1ECA /* SpacialDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0420BACC16D1BED400FD1ECA /* Build configuration list for PBXNativeTarget "SpacialDemo" */;
+			buildPhases = (
+				0420BAAB16D1BED400FD1ECA /* Sources */,
+				0420BAAC16D1BED400FD1ECA /* Frameworks */,
+				0420BAAD16D1BED400FD1ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpacialDemo;
+			productName = SpacialDemo;
+			productReference = 0420BAAF16D1BED400FD1ECA /* SpacialDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0420BAA716D1BED400FD1ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = progenius;
+			};
+			buildConfigurationList = 0420BAAA16D1BED400FD1ECA /* Build configuration list for PBXProject "SpacialDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0420BAA616D1BED400FD1ECA;
+			productRefGroup = 0420BAB016D1BED400FD1ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0420BAAE16D1BED400FD1ECA /* SpacialDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0420BAAD16D1BED400FD1ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0420BABD16D1BED400FD1ECA /* InfoPlist.strings in Resources */,
+				0420BAC516D1BED400FD1ECA /* Default.png in Resources */,
+				0420BAC716D1BED400FD1ECA /* Default@2x.png in Resources */,
+				0420BAC916D1BED400FD1ECA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0420BAAB16D1BED400FD1ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0420BABF16D1BED400FD1ECA /* main.m in Sources */,
+				0420BAC316D1BED400FD1ECA /* MBAppDelegate.m in Sources */,
+				0420BAE016D1BF3700FD1ECA /* MBSpacialChildViewController.m in Sources */,
+				0420BAE216D1BF3700FD1ECA /* MBSpacialMasterViewController.m in Sources */,
+				0420BAE616D1BF7900FD1ECA /* MasterViewController.m in Sources */,
+				0420BAEB16D1BFB000FD1ECA /* ChildViewController.m in Sources */,
+				0420BAF116D1C35200FD1ECA /* UIViewController+Utilities.m in Sources */,
+				04AFC6ED16DA640C00201FC3 /* MBMapNode.m in Sources */,
+				04AFC6EE16DA640C00201FC3 /* MBMapNodeLine.m in Sources */,
+				04AFC6EF16DA640C00201FC3 /* MBSpacialMap.m in Sources */,
+				04AFC6F316DA64BA00201FC3 /* MBPanGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0420BABB16D1BED400FD1ECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0420BABC16D1BED400FD1ECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0420BACA16D1BED400FD1ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0420BACB16D1BED400FD1ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0420BACD16D1BED400FD1ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpacialDemo/SpacialDemo-Prefix.pch";
+				INFOPLIST_FILE = "SpacialDemo/SpacialDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0420BACE16D1BED400FD1ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpacialDemo/SpacialDemo-Prefix.pch";
+				INFOPLIST_FILE = "SpacialDemo/SpacialDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0420BAAA16D1BED400FD1ECA /* Build configuration list for PBXProject "SpacialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0420BACA16D1BED400FD1ECA /* Debug */,
+				0420BACB16D1BED400FD1ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0420BACC16D1BED400FD1ECA /* Build configuration list for PBXNativeTarget "SpacialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0420BACD16D1BED400FD1ECA /* Debug */,
+				0420BACE16D1BED400FD1ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0420BAA716D1BED400FD1ECA /* Project object */;
+}
