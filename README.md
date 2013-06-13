@@ -11,6 +11,9 @@ Using gestures, you can navigate up, down, left, and right from any view control
 
 A map is automatically generated and displayed in the bottom left corner.
 
+###Demo
+You can see a live demo in the AppStore in Dicto: https://itunes.apple.com/us/app/dicto/id591603333?mt=8
+
 ##Usage
 <br>Usage is best explained by checking out the easy to follow sample code. Basically:</b><br><br>
 1. Create a master view controller which inherits from ```MBSpacialMasterViewController```.<br>
