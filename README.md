@@ -3,7 +3,13 @@
 ![image](https://github.com/mobitar/MBSpacialViewController/blob/gh/demo.gif?raw=true)
 
 ## Overview
-MBSpacialViewController lets you create an arbitrarily complex map of view controllers in 2D space. Using gestures, you can navigate up, down, left, and right from any view controller. A map is automatically generated and displayed in the bottom left corner.
+MBSpacialViewController lets you create an arbitrarily complex map of view controllers in 2D space. 
+
+Why would you want to do that? Because it's cool. That's why. 
+
+Using gestures, you can navigate up, down, left, and right from any view controller. 
+
+A map is automatically generated and displayed in the bottom left corner.
 
 ##Usage
 <br>Usage is best explained by checking out the easy to follow sample code. Basically:</b><br><br>
