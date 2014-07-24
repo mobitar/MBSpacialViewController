@@ -333,7 +333,7 @@
         } completion:^(BOOL finished) {
             self.view.alpha = 1.0;
             [self spacialViewDidDisappear];
-            [controller spacialViewWillAppear];
+            [controller spacialViewDidAppear];
         }];
     } else {
         [self executeMoveForViewController:controller inDirection:direction];
